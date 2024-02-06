@@ -100,4 +100,37 @@ nav>a:hover{
     background-color: #FEFAE0;
     border-radius: 30% 0;
 }
-
+footer{
+    background-color: #606c38;
+    padding: 1rem;
+}
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#contact{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 1rem;
+}
+#contact img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    transition: all .5s;
+}
+#contact img:hover{
+    transform:skew(20deg);
+}
+footer>p{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer>p>span{
+    font-weight: lighter;
+    color: darkgray;
+}
