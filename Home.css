@@ -3,14 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+header{
     background-color: #606c38;
     position: sticky;
     top: 0;
     padding: 1rem;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 nav ul{
     display: flex;
