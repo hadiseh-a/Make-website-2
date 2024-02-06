@@ -62,6 +62,7 @@ nav>a:hover{
     border-radius: 20%;
     box-shadow: 5px 5px white;
     transition: all.5s;
+    color: black;
 }
 #container article:hover{
     transform:scale(1.06);
