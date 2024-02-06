@@ -14,6 +14,7 @@ nav{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-content: space-between;
 }
 nav ul{
     display: flex;
@@ -111,6 +112,7 @@ h2{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    align-content: space-between;
     list-style: none;
     margin: 1rem;
 }
@@ -124,8 +126,7 @@ h2{
     transform:skew(20deg);
 }
 footer>p{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin-top: 2rem;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
