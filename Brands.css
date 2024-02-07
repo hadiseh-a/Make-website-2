@@ -149,7 +149,7 @@ footer>p>span{
         overflow: scroll;
     }
 }
-@media (max-width:530px){
+@media (max-width:560px){
     .read article{
         width: 20rem;
         overflow: scroll;
