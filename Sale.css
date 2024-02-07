@@ -52,7 +52,7 @@ nav>a:hover{
     display: flex;
     justify-content:space-evenly;
     flex-wrap: wrap;
-    background-image:url(./backgrond4.jpg);
+    background-image:url(./pictures/backgrond4.jpg);
 }
 #container article{
     width: 20rem;
