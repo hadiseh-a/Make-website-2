@@ -57,11 +57,11 @@ nav>a:hover{
 #container article{
     width: 20rem;
     height: 25rem;
-    background-color: #DDA15E;
+    background: linear-gradient(#BC6C25, #FEFAE0);;
     position: relative;
     margin: 1rem;
     border-radius: 20%;
-    box-shadow: 5px 5px white;
+    box-shadow: 3px 3px  rgb(187, 187, 187);
     transition: all.5s;
     color: black;
 }
