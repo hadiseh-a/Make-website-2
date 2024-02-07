@@ -166,3 +166,20 @@ footer>p>span{
         top: 6rem;
     }
 }
+@media (max-width:400px){
+    .read article{
+        width: 15rem;
+        overflow: scroll;
+    }
+    .read article img{
+        display: none;
+    }
+    .read article span{
+        position: absolute;
+        top: 1rem;
+    }
+    .read article p{
+        position: absolute;
+        top: 8rem;
+    }
+}
