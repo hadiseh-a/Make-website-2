@@ -50,6 +50,7 @@ nav>a:hover{
 }
 .read{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
@@ -128,4 +129,40 @@ footer>p{
 footer>p>span{
     font-weight: lighter;
     color: darkgray;
+}
+@media (max-width:1050px){
+    .read article{
+        width: 30rem;
+    }
+    .read article img{
+        display: none;
+    }
+    .read article span{
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+    }
+    .read article p{
+        position: absolute;
+        top: 6rem;
+        left: 1rem;
+        overflow: scroll;
+    }
+}
+@media (max-width:530px){
+    .read article{
+        width: 20rem;
+        overflow: scroll;
+    }
+    .read article img{
+        display: none;
+    }
+    .read article span{
+        position: absolute;
+        top: 1rem;
+    }
+    .read article p{
+        position: absolute;
+        top: 6rem;
+    }
 }
