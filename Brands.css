@@ -133,6 +133,7 @@ footer>p>span{
 @media (max-width:1050px){
     .read article{
         width: 30rem;
+        overflow: scroll;
     }
     .read article img{
         display: none;
@@ -146,7 +147,6 @@ footer>p>span{
         position: absolute;
         top: 6rem;
         left: 1rem;
-        overflow: scroll;
     }
 }
 @media (max-width:560px){
